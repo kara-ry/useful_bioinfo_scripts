@@ -61,7 +61,7 @@ def write_bed_file(bed_lines, output_file):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print("Usage: python gtf_to_bed.py input.gtf output.bed")
+        print("Usage: python gtf_to_bed_intron_exon.py input.gtf output.bed")
         sys.exit(1)
 
     input_gtf = sys.argv[1]
